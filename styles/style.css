@@ -1,0 +1,89 @@
+@import url('./layout.css');
+
+
+body > header {
+    height: 300px;
+    background: url("../images/dylan-leagh-o3eZxJRrNRQ-unsplash.jpg" );
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+body header h1 {
+    color: white;
+    font-size: 3.3em;
+    text-align: left;
+}
+
+body header h2 {
+    color: white;
+    font-size: 2.0em;
+    text-align: left;
+}
+
+button {
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 115px;
+    background: darkslategrey;
+    color: white;
+   float: right ;
+   text-align: center;
+
+ }
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 2;
+}
+
+article {
+    width: 200px;
+    padding: 1em;
+    border: 0.1em;
+    border-style: solid;
+}
+
+article img {
+    width: 100%;
+}
+article div {
+    background-color: black;
+    color: aliceblue;
+}
+
+aside {
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+aside > h3 {
+    font-size: 2em;
+}
+
+aside > table {
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+aside table tr td {
+    padding: 0.4em;
+}
+
+aside table tr:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+aside table tr:nth-child(even) {
+    background-color: white;
+    color: black;
+}
